@@ -1,0 +1,101 @@
+
+.mainbox{
+ 
+  height: 400px;
+  width: 400px;
+  margin-left: 450px;
+}
+.side{
+  display: flex;
+}
+.box{
+  text-align: center;
+  justify-content: center;
+  
+  height: 170px;
+  width: 170px;
+  
+  cursor:pointer;
+}
+ .red{
+  background-color: rgb(226, 13, 5);
+  border: 5px  solid black;
+  border-radius: 50px 50px 50px 50px;
+  margin: 0px 20px -20px 10px;
+  
+ }
+ .yellow{
+  background-color:rgb(224, 236, 4);
+  border: 5px solid black;
+  border-radius:  50px 50px 50px 50px;
+  margin: 0px 20px -10px 10px;
+ }
+ .blue{
+  background-color: rgb(3, 110, 249);
+  border: 5px solid black;
+  border-radius:  50px 50px 50px 50px;
+  margin: -20px 20px 0px 10px;
+
+ }
+ .green{
+background-color: rgb(2, 118, 2);
+border: 5px solid black;
+  border-radius: 50px 50px 50px 50px;
+  margin: -20px 20px 0px 10px;
+ }
+
+.blinkbb{
+  background-color: rgb(3, 3, 3);
+}
+.blink{
+  background-color: rgb(255, 255, 255);
+}
+.fullred{
+  background-color: red;
+}
+
+.hscore{
+  height: 30px;
+  width: 200px;
+  background-color: cadetblue;
+  padding: 10px;
+  font-size: 25px;
+  margin-left: 550px;
+  border-radius: 40px;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(242, 117, 163);
+  padding: 15px;
+  text-align: center;
+  margin: 0px 450px;
+  
+}
+.levelupdate{
+  background-color: rgb(2, 190, 178);
+  height: 40px;
+  width: 900px;
+  text-align: center;
+  padding: 8px;
+  margin: 30px 200px 0 200px;
+  font-size: 20px;
+}
+.playbtn{
+  border-radius: 50%;
+  height: 55px;
+  width: 55px;
+  background-color: rgb(50, 49, 51);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  margin: 0px 168px 10px 168px;
+  cursor: pointer;
+  
+}
+.playbtn:hover{
+  
+  background-color: rgb(41, 192, 169);
+  color: black;
+  border: none;
+
+}
